@@ -13,7 +13,7 @@
 <ur>
     <c:forEach var="url" items="${urls}">
         <li>
-            <a href="<c:url value='S{url}.jsp' />">${url}</a>
+            <a href="<c:url value='${url}.jsp' />">${url}</a>
         </li>
     </c:forEach>
 </ur>
